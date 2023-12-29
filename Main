@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        Bank bank = new Bank();
+        bank.setAccountBalance(10000);
+        bank.setAccountNumber("123");
+        bank.setEmail("luna@abcmail.com");
+        bank.setCustomerName("Luna");
+        bank.setPhoneNumber("012345");
+        bank.withdrawFund(100);
+        bank.depositFund(250);
+        bank.withdrawFund(50);
+
+
+
+    }
+}
